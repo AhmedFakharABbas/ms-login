@@ -1,0 +1,64 @@
+.bgg {
+  background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+  padding: 1%;
+  height: 100vh;
+}
+.wtext {
+  color: #fff;
+  text-align: center;
+}
+.discription {
+  opacity: 0.8;
+}
+
+.wimg {
+  height: 90px;
+  width: 90px;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  margin-top: 17%;
+}
+.logoimg {
+  margin-bottom: 4%;
+  margin-top: 0%;
+}
+@keyframes example {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-20px);
+  }
+}
+.card {
+  border-top-left-radius: 10% 50%;
+  border-bottom-left-radius: 10% 50%;
+  background-color: #f8f9fa;
+  padding: 1% 11% 1% 7%;
+  /* position: absolute; */
+}
+.registerbtn {
+  margin-left: 79%;
+}
+.form-control.is-invalid {
+  background-image: none;
+}
+.invalid-feedback {
+  right: 9%;
+}
+
+@media (max-width: 845px) {
+  .logoimg {
+    margin-bottom: 8%;
+    margin-top: 4%;
+  }
+}
+.msaccount {
+  color: #0062cc;
+  cursor: pointer;
+}
+.msaccount:hover {
+  color: #3931af;
+}

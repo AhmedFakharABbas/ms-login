@@ -1,0 +1,68 @@
+<div class="bgg">
+
+    <div class="container-fluid">
+        <div class="row">
+            <img class="logoimg" src="../../assets/flogo (2).png" alt="">
+        </div>
+        <div class="row">
+            <div class="col-md-3 wtext d-none d-md-block d-lg-block d-xl-block">
+                <img class="wimg" src="https://image.ibb.co/n7oTvU/logo_white.png">
+                <br>
+
+                <h2>Welcome</h2>
+                <br>
+                <p class="discription">Integer sodales tempus nisi eget condimentum. Nam mollis libero dignissim </p>
+                <br><br><br>
+
+                <a href="/authentication/signup" class="btn btn-secondary  rounded-pill">SignUp</a>
+
+            </div>
+            <div class="col-md-9 ">
+                <div class="card ">
+                    <div class="card-body">
+                        <br>
+                        <h3 class="text-center">Sign In</h3>
+                        <br>
+                        <form name="form" (ngSubmit)="onSubmit()" novalidate>
+                            <div class="form-row justify-content-center">
+                                <!-- username -->
+                                <div class="form-group col-md-6">
+                                    <label for="UserName">User Name</label>
+                                    <input type="text" class="form-control" name="UserName" />
+
+                                </div>
+
+                            </div>
+                            <!-- password -->
+                            <div class="row justify-content-center">
+                                <div class="form-group col-md-6">
+                                    <label for="Password">Password</label>
+                                    <input type="Password" class="form-control" name="Password" />
+
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <div class="row ">
+
+                                <div class="col-md-12 d-flex justify-content-center">
+                                    <button type="submit" class="mb-2 btn btn-primary rounded-pill  ">SignIn</button>
+                                    <span class="mt-1 ml-3 "> Continue with <span (click)="msClick()"
+                                            class="msaccount">Microsoft?</span></span>
+                                </div>
+
+                                <div class="col-md-12">
+                                    <br>
+                                    <p class="d-block d-md-none">Don't have an account yet?<a
+                                            href="/authentication/signup">SignUp</a></p>
+                                </div>
+                            </div>
+
+                        </form>
+                        <br><br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
